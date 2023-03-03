@@ -17,7 +17,7 @@ text-align:center;
 }
 
 .hero__container h1 {
-    font-family: 'Tenor Sans', sans-serif; 
+    font-family: 'Tenor Sans'; 
 font-style: normal;
 font-weight: 400;
 font-size: 25px;
@@ -53,7 +53,7 @@ color: #CE946B;
 }
 .addInfo h2{
     margin-top:33px;
-font-family: 'TT Norms';
+    font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
