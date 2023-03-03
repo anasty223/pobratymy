@@ -4,3 +4,61 @@ font-family: 'Tenor Sans', sans-serif; */
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+.hero__container{
+ 
+    background-color:#363348 ;
+    margin-left:auto;
+margin-right:auto;
+margin-top:10px;
+padding-top:120px;
+text-align:center;
+
+}
+
+.hero__container h1 {
+    font-family: 'Tenor Sans', sans-serif; 
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+text-transform: uppercase;
+color: #E5B093;
+}
+.hero__container p{
+    font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.hero__container img{
+    width:24px;
+margin-bottom:49px;
+margin-top:91px;
+}
+.addInfo span{
+    font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 66px;
+/* identical to box height */
+text-transform: uppercase;
+color: #CE946B;
+}
+.addInfo h2{
+    margin-top:33px;
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+color: #34343F;
+display: flex;
+flex-direction:column;
+}
