@@ -18,7 +18,7 @@
 <body>
   <!-- HEADER  -->
   <div class="header " style="background-color: #363348; ">
-    <nav class="navbar pull-right navbar-dark navbar-expand-lg px-4  pe-3">
+    <nav class="navbar pull-right navbar-dark navbar-expand-lg px-4  pe-3 fixed-top"style="background-color: #363348; >
       <div class="container-fluid ">
         <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,11 +34,13 @@
             <li class="nav-item">
               <a class="nav-link active link-light" aria-current="page" href="#home"></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link link-light" href="#aboutUs">Про нас</a>
-            </li>
+      
             <li class="nav-item">
               <a class="nav-link link-light" href="#help">Допомога</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link link-light" href="#aboutUs">Про засновника</a>
             </li>
             <li class="nav-item">
               <a class="nav-link link-light" href="#contacts">Контакти</a>
@@ -54,8 +56,8 @@
   <section>
     <div class="container-fluid px-4 text-center">
 
-     <div class="hero__container px-4"> <h1>ВІЙСЬКОВІ ПОБРАТИМИ -</h1>
-      <p>МІСЦЕ ЗУСТРІЧІ ДОПОМОГИ ВІЙСЬКОВИМ</p>
+     <div class="hero__container px-4"> <h1 style="font-family: 'Tenor Sans'">ВІЙСЬКОВІ ПОБРАТИМИ -</h1>
+      <p  >МІСЦЕ ЗУСТРІЧІ ДОПОМОГИ ВІЙСЬКОВИМ</p>
 
       <a href="#"><img src="./images/flash.png" alt="flesh"></a>
     </div>
@@ -80,10 +82,11 @@
     </div>
     <p class=" px-4 pt-5 text-start">І це тільки початок роботи фонду "Військові побратими". У перспективі плануються
       розширення меж та збільшення обсягів помічі військовим.</p>
+      
   </section>
 
   <!-- SECTION HELP  -->
-<section class="help">
+<section class="help" id="help">
 
     <!-- Slider -->
    
@@ -166,12 +169,25 @@
 
 
 
-  <p class="px-4 py-4 text-uppercase fs-1 fw-normal text-center" ><span style="color:#C88C61">Працюємо над перемогою! Міць та сила зашиті в нашій </span>   генетиці! Слава Україні! Героям Слава!</p>
+  <p class="px-4 py-4 text-uppercase fs-4 fw-normal text-center" ><span style="color:#C88C61">Працюємо над перемогою! Міць та сила зашиті в нашій </span>   генетиці! Слава Україні! Героям Слава!</p>
 </section>
 
+<section class="about-us mx-auto" id="aboutUs">
+
+  <h2 class="fs-2  px-4  text-start " style="color:#C88C61;font-family:'Tenor Sans'">Про мене </h2>
+  <p  class=" px-4  text-start" >Благодійний фонд "Військові побратими" створений для допомоги Збройним формуванням України.</p>
+
+  <p  class=" px-4  text-start" >Голова Благодійного фонда допомоги військовослужбовцям 
+    «Військові Побратими»
+    Сергій Загородній</p>
+    <img class="mx-auto d-block" src="./images/helps/sergey.jpg" alt="голова фонду" width="300">
+
+</section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
+
+<script src="/js/scroll.js"></script>
 </body>
 </body>
 
