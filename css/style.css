@@ -271,3 +271,43 @@ input#img-5:checked ~ .nav-dots label#img-dot-5,
 input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	background: rgba(0, 0, 0, 0.8);
 }
+.circle{
+  width:40px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #CE946B;
+}
+.btn-contacts{
+width: 272px;
+height: 78px;
+align-items: center;
+background-color: #CE946B;
+color: white;
+background: linear-gradient(314.24deg, #C88C61 25.11%, #EBBE9C 88.64%);
+box-shadow: inset 0px 0px 10px #E5B79A;
+border-radius: 2% / 50%;
+cursor: pointer;
+font-family: 'TT Norms';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+letter-spacing: 0.857143px;
+display: flex;
+justify-content: center;
+
+}
+.btn-contacts:hover{
+  background: linear-gradient(137deg, #C88C61 25.11%, #EBBE9C 88.64%);
+  color: white;
+}
+.radius-contacts{
+  border-radius: 26em/6em;
+  border-end-end-radius: 0px;
+  border-bottom-left-radius: 0%;
+}
