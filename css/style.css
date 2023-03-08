@@ -321,3 +321,12 @@ box-shadow: 0px 2px 3px #F0D8D3;
 text-align: center;
 align-items: center;
 }
+
+
+.btn-disable{
+  user-select:none!important;
+  background-color:#ccc!important;
+  cursor:default!important;
+  outline:none!important;
+  pointer-events:none!important;
+}
