@@ -255,12 +255,12 @@ input:checked + .slide-container .nav label { display: block; }
 	position: relative;
 	border-radius: 100%;
 	display: inline-block;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(255, 253, 253, 0.6);
 }
 
 .nav-dots .nav-dot:hover {
 	cursor: pointer;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(255, 255, 255, 0.8);
 }
 
 input#img-1:checked ~ .nav-dots label#img-dot-1,
